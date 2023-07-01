@@ -1,0 +1,14 @@
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+
+.cardDiv{
+    padding: 200px;
+    border: 2px solid rgb(235, 241, 235);
+    box-shadow: 10px 8px 10px 8px rgba(210, 139, 240, 0.5);
+}

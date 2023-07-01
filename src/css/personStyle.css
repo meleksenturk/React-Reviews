@@ -1,0 +1,54 @@
+.personInfo img{
+    border-radius: 50%;
+
+}
+
+.personInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+}
+
+.personText{
+    width: 400px;
+}
+
+.nextAndPrevious{
+    margin-top: 50px;
+}
+
+.buttonAi{
+    background-color: white;
+    border: none;
+}
+.buttonAi :hover{
+    cursor: pointer;
+
+}
+
+.supriseDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.supriseDiv button{
+    border: none;
+    background-color: rgb(189, 141, 226);
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    /* transition: width 1s, height 1s, background-color 1s; */
+}
+
+.supriseDiv button:hover{
+    cursor: pointer;
+    /* padding: 12px;
+    font-weight: 700;
+    font-size: medium; */
+    
+}
